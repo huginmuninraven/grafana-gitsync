@@ -2,10 +2,7 @@
   "apiVersion": "folder.grafana.app/v1",
   "kind": "Folder",
   "metadata": {
-    "annotations": {},
-    "labels": {},
-    "name": "cf094a50s74sgc",
-    "namespace": "stacks-1346778"
+    "name": "cf094a50s74sgc"
   },
   "spec": {
     "title": "TestData Alert Example"

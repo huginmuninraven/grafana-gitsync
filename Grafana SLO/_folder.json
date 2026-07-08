@@ -2,10 +2,7 @@
   "apiVersion": "folder.grafana.app/v1",
   "kind": "Folder",
   "metadata": {
-    "annotations": {},
-    "labels": {},
-    "name": "ceycsx1kw7jswb",
-    "namespace": "stacks-1346778"
+    "name": "ceycsx1kw7jswb"
   },
   "spec": {
     "title": "Grafana SLO"
