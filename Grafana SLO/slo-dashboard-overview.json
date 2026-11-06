@@ -149,7 +149,7 @@
                 }
               }
             },
-            "version": "13.2.0-31683987170"
+            "version": "13.4.0-41805046240"
           }
         }
       },
@@ -192,7 +192,50 @@
               },
               "options": {}
             },
-            "version": "13.2.0-31683987170"
+            "version": "13.4.0-41805046240"
+          }
+        }
+      },
+      "panel-11": {
+        "kind": "Panel",
+        "spec": {
+          "data": {
+            "kind": "QueryGroup",
+            "spec": {
+              "queries": [
+                {
+                  "kind": "PanelQuery",
+                  "spec": {
+                    "hidden": false,
+                    "query": {
+                      "group": "",
+                      "kind": "DataQuery",
+                      "spec": {},
+                      "version": "v0"
+                    },
+                    "refId": "A"
+                  }
+                }
+              ],
+              "queryOptions": {},
+              "transformations": []
+            }
+          },
+          "description": "",
+          "id": 11,
+          "links": [],
+          "title": "New panel",
+          "vizConfig": {
+            "group": "__unconfigured-panel",
+            "kind": "VizConfig",
+            "spec": {
+              "fieldConfig": {
+                "defaults": {},
+                "overrides": []
+              },
+              "options": {}
+            },
+            "version": "13.4.0-41805046240"
           }
         }
       },
@@ -276,7 +319,7 @@
                 "wideLayout": true
               }
             },
-            "version": "13.2.0-31683987170"
+            "version": "13.4.0-41805046240"
           }
         }
       },
@@ -360,7 +403,7 @@
                 "wideLayout": true
               }
             },
-            "version": "13.2.0-31683987170"
+            "version": "13.4.0-41805046240"
           }
         }
       },
@@ -444,7 +487,7 @@
                 "wideLayout": true
               }
             },
-            "version": "13.2.0-31683987170"
+            "version": "13.4.0-41805046240"
           }
         }
       },
@@ -528,7 +571,7 @@
                 "wideLayout": true
               }
             },
-            "version": "13.2.0-31683987170"
+            "version": "13.4.0-41805046240"
           }
         }
       },
@@ -612,7 +655,7 @@
                 "wideLayout": true
               }
             },
-            "version": "13.2.0-31683987170"
+            "version": "13.4.0-41805046240"
           }
         }
       },
@@ -649,7 +692,7 @@
                 "mode": "markdown"
               }
             },
-            "version": "13.2.0-31683987170"
+            "version": "13.4.0-41805046240"
           }
         }
       },
@@ -755,7 +798,7 @@
                 "wideLayout": true
               }
             },
-            "version": "13.2.0-31683987170"
+            "version": "13.4.0-41805046240"
           }
         }
       },
@@ -865,7 +908,7 @@
                 "wideLayout": true
               }
             },
-            "version": "13.2.0-31683987170"
+            "version": "13.4.0-41805046240"
           }
         }
       }
@@ -1001,6 +1044,19 @@
               "height": 8,
               "width": 12,
               "x": 0,
+              "y": 6
+            }
+          },
+          {
+            "kind": "GridLayoutItem",
+            "spec": {
+              "element": {
+                "kind": "ElementReference",
+                "name": "panel-11"
+              },
+              "height": 8,
+              "width": 12,
+              "x": 12,
               "y": 6
             }
           }
