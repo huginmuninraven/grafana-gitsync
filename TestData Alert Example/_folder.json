@@ -2,7 +2,15 @@
   "apiVersion": "folder.grafana.app/v1",
   "kind": "Folder",
   "metadata": {
-    "name": "cf094a50s74sgc"
+    "name": "cf094a50s74sgc",
+    "ownerReferences": [
+      {
+        "apiVersion": "iam.grafana.app/v0alpha1",
+        "kind": "Team",
+        "name": "fg05pluileupsf",
+        "uid": "fg05pluileupsf"
+      }
+    ]
   },
   "spec": {
     "title": "TestData Alert Example"
